@@ -24,7 +24,7 @@ class List{
             // node newNode(val); //static hai
             if(head == NULL){
                 head = tail = newNode;
-                return;
+                return; 
             }
             else{
                 newNode ->next = head;
