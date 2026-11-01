@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std; 
-class node{     //node class;
+class node{    
     public:
         int data;
         node *next;
@@ -11,7 +11,6 @@ class node{     //node class;
         }
 };
 
-// CASE1 = push front(dynamic implementation)
 class List{
     node *head;
     node *tail;
