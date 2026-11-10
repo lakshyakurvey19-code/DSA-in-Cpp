@@ -12,7 +12,17 @@ int main(){
     vec.push_back(5);
     vec.emplace_back(6);
 
+    cout <<"Before pop_back :"<<endl;
+    for(int val : vec){
+        cout << val <<" ";
+    }
+    cout << endl;
+
     vec.pop_back();
+    vec.pop_back();
+    vec.pop_back();
+
+    cout <<"After pop_back :" << endl;
     for(int val : vec){
         cout << val <<" ";
     }
